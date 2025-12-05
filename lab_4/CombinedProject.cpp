@@ -10,13 +10,13 @@
 
 class MultiThreadedData {
 private:
-    int fields[3]; // Three integer fields
-    std::mutex mutexes[3]; // Mutexes for each field
+    int fields[3];            // три цілі поля
+    std::mutex mutexes[3];    // по одному м'ютексу на кожне поле
 
 public:
     MultiThreadedData() {
         for (int i = 0; i < 3; ++i) {
-            fields[i] = 0; // Initialize fields to 0
+            fields[i] = 0;
         }
     }
 
@@ -33,6 +33,9 @@ public:
     }
 
     std::string to_string() {
+        // для коректного знімка стану — можна заблокувати всі три м’ютекси
+        std::scoped_lock lock(mutexes[0], mutexes[1], mutexes[2]);
+
         std::string result = "Fields: [";
         for (int i = 0; i < 3; ++i) {
             result += std::to_string(fields[i]);
@@ -43,111 +46,156 @@ public:
     }
 };
 
+// генерація послідовності дій згідно частот варіанта №9
+// (m = 3, read/write для кожного поля + string)
 void generateActionSequence(const std::string& filename, int totalActions) {
     std::ofstream file(filename);
-    std::default_random_engine generator;
-    std::uniform_int_distribution<int> fieldDist(0, 2);
+    if (!file.is_open()) {
+        std::cerr << "Cannot open file " << filename << " for writing\n";
+        return;
+    }
+
+    std::default_random_engine generator(std::random_device{}());
+    std::uniform_int_distribution<int> rollDist(1, 100);
     std::uniform_int_distribution<int> valueDist(1, 100);
 
     for (int i = 0; i < totalActions; ++i) {
-        int actionType = std::uniform_int_distribution<int>(1, 100)(generator);
-        if (actionType <= 10) { // 10% for write 0
-            file << "write 0 " << valueDist(generator) << '\n';
-        }
-        else if (actionType <= 20) { // 10% for write 1
-            file << "write 1 " << valueDist(generator) << '\n';
-        }
-        else if (actionType <= 30) { // 40% for read 2
-            file << "read 2\n";
-        }
-        else if (actionType <= 35) { // 5% for write 2
-            file << "write 2 " << valueDist(generator) << '\n';
-        }
-        else if (actionType <= 50) { // 10% for read 0
+        int r = rollDist(generator);
+
+        if (r <= 10) {                   // 10% read 0
             file << "read 0\n";
         }
-        else if (actionType <= 60) { // 10% for read 1
+        else if (r <= 20) {            // 10% write 0
+            file << "write 0 " << valueDist(generator) << '\n';
+        }
+        else if (r <= 30) {            // 10% read 1
             file << "read 1\n";
         }
-        else { // 15% for string
+        else if (r <= 40) {            // 10% write 1
+            file << "write 1 " << valueDist(generator) << '\n';
+        }
+        else if (r <= 80) {            // 40% read 2
+            file << "read 2\n";
+        }
+        else if (r <= 85) {            // 5% write 2
+            file << "write 2 " << valueDist(generator) << '\n';
+        }
+        else {                         // 15% string
             file << "string\n";
         }
     }
-
-    file.close();
 }
 
-// Function to measure execution time and log results
+// читаємо файл дій і виконуємо їх над спільною структурою
+void executeActions(MultiThreadedData& data, const std::string& filename) {
+    std::ifstream actionFile(filename);
+    if (!actionFile.is_open()) {
+        std::cerr << "Unable to open action file: " << filename << std::endl;
+        return;
+    }
+
+    std::string line;
+    while (std::getline(actionFile, line)) {
+        std::istringstream iss(line);
+        std::string command;
+        int index, value;
+
+        if (!(iss >> command))
+            continue;
+
+        if (command == "write") {
+            if (iss >> index >> value) {
+                data.write(index, value);
+            }
+        }
+        else if (command == "read") {
+            if (iss >> index) {
+                std::cout << "Read from field " << index
+                    << ": " << data.read(index) << '\n';
+            }
+        }
+        else if (command == "string") {
+            std::cout << data.to_string() << '\n';
+        }
+    }
+
+    actionFile.close();
+}
+
+// вимірювання часу виконання послідовності дій з файлу
+// (час зчитування файлу можна винести окремо, але тут хоч базово є замір алгоритму)
 void measureExecutionTime(MultiThreadedData& data, const std::string& filename) {
+    // читаємо файл наперед, щоб (хоч приблизно) не враховувати IO у замір
+    std::ifstream actionFile(filename);
+    if (!actionFile.is_open()) {
+        std::cerr << "Unable to open action file for timing: " << filename << std::endl;
+        return;
+    }
+
+    std::vector<std::string> lines;
+    std::string line;
+    while (std::getline(actionFile, line)) {
+        lines.push_back(line);
+    }
+    actionFile.close();
+
     auto start = std::chrono::high_resolution_clock::now();
-    executeActions(data, filename);
+
+    for (const auto& l : lines) {
+        std::istringstream iss(l);
+        std::string command;
+        int index, value;
+
+        if (!(iss >> command))
+            continue;
+
+        if (command == "write") {
+            if (iss >> index >> value) {
+                data.write(index, value);
+            }
+        }
+        else if (command == "read") {
+            if (iss >> index) {
+                data.read(index); // для замірів достатньо читання, можна не друкувати
+            }
+        }
+        else if (command == "string") {
+            data.to_string(); // теж без друку, щоб не спотворювати час
+        }
+    }
+
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> duration = end - start;
 
-    // Print to console
-    std::cout << "Execution time for " << filename << ": " << duration.count() << " seconds\n";
-
-    // Append execution time to the action file
-    std::ofstream actionFile(filename, std::ios_base::app); // Open in append mode
-    if (actionFile.is_open()) {
-        actionFile << "Execution time: " << duration.count() << " seconds\n";
-        actionFile.close();
-    }
-    else {
-        std::cerr << "Unable to open action file: " << filename << std::endl;
-    }
+    std::cout << "Execution time for " << filename
+        << ": " << duration.count() << " seconds\n";
 }
 
 int main() {
+    // спільна структура даних, по якій працюють усі потоки
     MultiThreadedData data;
-    generateActionSequence("actions1.txt", 1000); // Adjust totalActions as needed
-    generateActionSequence("actions2.txt", 1000);
-    generateActionSequence("actions3.txt", 1000);
 
-    // Measure execution time for single-threaded
+    // генеруємо три файли з діями (тут поки всі – з частотами варіанта №9)
+    generateActionSequence("actions1.txt", 100000);
+    generateActionSequence("actions2.txt", 100000);
+    generateActionSequence("actions3.txt", 100000);
+
+    std::cout << "=== 1 thread ===\n";
     measureExecutionTime(data, "actions1.txt");
 
-    // Measure execution time for two threads
+    std::cout << "\n=== 2 threads ===\n";
     std::thread t1(measureExecutionTime, std::ref(data), "actions2.txt");
     std::thread t2(measureExecutionTime, std::ref(data), "actions3.txt");
     t1.join();
     t2.join();
 
-    // Measure execution time for three threads
+    std::cout << "\n=== 3 threads ===\n";
     std::thread t3(measureExecutionTime, std::ref(data), "actions1.txt");
     std::thread t4(measureExecutionTime, std::ref(data), "actions2.txt");
     std::thread t5(measureExecutionTime, std::ref(data), "actions3.txt");
     t3.join();
     t4.join();
     t5.join();
-
-    MultiThreadedData data;
-    std::ifstream actionFile;
-    std::string line;
-
-    // Read and execute actions from each generated file
-    for (int i = 1; i <= 3; ++i) {
-        actionFile.open("actions" + std::to_string(i) + ".txt");
-        while (std::getline(actionFile, line)) {
-            std::istringstream iss(line);
-            std::string command;
-            int index, value;
-            if (iss >> command) {
-                if (command == "write") {
-                    iss >> index >> value;
-                    data.write(index, value);
-                }
-                else if (command == "read") {
-                    iss >> index;
-                    std::cout << "Read from field " << index << ": " << data.read(index) << '\n';
-                }
-                else if (command == "string") {
-                    std::cout << data.to_string() << '\n';
-                }
-            }
-        }
-        actionFile.close();
-    }
 
     return 0;
 }
