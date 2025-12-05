@@ -1,0 +1,1000 @@
+string
+write 2 91
+string
+write 2 97
+write 0 23
+read 0
+write 2 10
+write 2 28
+write 2 55
+read 2
+read 2
+read 2
+read 2
+read 2
+write 2 73
+read 2
+read 2
+read 2
+write 2 49
+read 0
+string
+write 2 15
+write 2 43
+write 2 92
+read 0
+read 0
+string
+read 2
+write 2 66
+read 0
+write 2 37
+string
+write 2 94
+read 0
+read 0
+write 2 76
+read 0
+read 0
+write 2 40
+write 2 66
+write 2 18
+write 2 71
+read 0
+write 2 32
+write 2 88
+write 2 15
+write 2 100
+string
+string
+read 0
+write 2 32
+read 0
+read 2
+write 2 4
+read 0
+write 2 13
+write 2 22
+read 0
+write 2 80
+write 2 19
+write 2 49
+write 2 45
+write 2 65
+read 0
+read 0
+write 0 76
+string
+write 2 71
+read 0
+write 2 66
+read 0
+write 2 65
+write 2 46
+write 2 78
+read 2
+write 2 35
+string
+write 2 81
+write 2 2
+read 0
+string
+write 2 83
+write 2 95
+read 0
+write 2 90
+write 2 96
+write 2 55
+write 2 14
+read 0
+write 2 24
+write 2 81
+string
+read 2
+write 2 34
+string
+write 2 25
+write 2 93
+write 2 35
+write 0 20
+string
+write 2 96
+read 0
+read 0
+write 2 99
+write 2 7
+string
+read 0
+write 2 60
+write 2 74
+write 0 70
+write 2 68
+read 0
+write 2 76
+write 2 39
+write 2 57
+write 2 8
+write 2 6
+write 2 54
+write 2 78
+write 2 94
+read 2
+write 2 16
+write 2 40
+write 2 39
+write 2 73
+write 2 39
+write 2 93
+read 0
+write 2 32
+string
+write 2 63
+write 2 12
+read 0
+write 2 27
+write 2 66
+write 2 69
+read 0
+read 0
+read 2
+write 2 73
+write 2 92
+write 2 51
+write 0 56
+write 2 51
+string
+write 2 54
+write 2 100
+write 2 8
+string
+write 2 61
+write 2 50
+read 2
+read 2
+write 2 4
+read 0
+read 2
+string
+write 2 87
+read 0
+write 2 35
+write 2 86
+write 2 5
+string
+read 0
+write 2 75
+write 0 14
+write 2 99
+write 2 10
+write 2 29
+write 2 81
+string
+write 2 58
+read 0
+write 2 1
+write 2 69
+string
+write 2 63
+write 2 36
+write 2 52
+write 2 41
+write 2 8
+read 0
+write 2 5
+write 2 26
+write 2 51
+write 2 83
+write 2 99
+write 2 83
+write 0 31
+write 0 5
+write 2 25
+write 2 55
+write 2 89
+write 0 35
+write 2 4
+write 2 17
+read 0
+string
+write 2 22
+write 2 28
+write 2 50
+write 2 23
+write 2 50
+write 0 96
+read 2
+read 0
+write 2 76
+write 2 44
+write 2 56
+write 2 6
+string
+write 2 2
+write 2 5
+write 0 17
+string
+read 0
+write 2 74
+write 2 65
+write 2 46
+write 2 55
+read 0
+write 2 29
+read 0
+read 0
+write 2 82
+read 0
+write 2 19
+write 2 37
+write 2 63
+string
+read 0
+read 0
+write 2 38
+write 0 46
+read 0
+write 2 49
+write 0 44
+write 2 45
+read 0
+write 2 11
+write 2 40
+write 2 88
+string
+write 2 80
+write 0 65
+write 2 38
+write 2 82
+write 2 54
+write 0 36
+read 2
+write 0 25
+string
+write 2 56
+write 2 63
+read 0
+write 2 48
+write 2 55
+write 2 2
+write 2 91
+write 2 20
+string
+string
+write 2 45
+write 2 15
+write 2 24
+write 2 80
+write 2 48
+write 2 9
+write 0 65
+write 2 64
+write 2 59
+write 0 73
+read 2
+write 2 44
+read 0
+write 2 71
+write 2 17
+write 2 14
+write 2 45
+write 2 5
+read 0
+read 0
+read 0
+write 2 23
+string
+write 2 33
+write 2 66
+write 2 43
+write 2 79
+write 2 12
+write 2 100
+write 2 19
+string
+read 0
+write 2 27
+write 0 25
+read 0
+write 2 49
+write 2 58
+write 2 24
+read 2
+write 2 22
+read 2
+read 0
+write 2 23
+write 2 19
+write 2 41
+write 2 42
+read 0
+write 2 68
+write 2 40
+read 0
+write 2 16
+read 2
+read 0
+write 2 89
+string
+read 2
+write 0 2
+read 0
+write 2 10
+read 0
+write 2 33
+write 2 13
+read 0
+write 2 14
+string
+read 0
+write 2 11
+write 2 66
+write 2 50
+write 2 78
+write 2 72
+write 2 91
+write 2 90
+write 2 34
+read 0
+read 0
+write 2 20
+write 2 4
+write 2 75
+read 0
+write 2 26
+write 2 41
+write 0 27
+read 0
+write 0 62
+write 2 86
+read 0
+string
+write 2 58
+write 2 19
+write 2 24
+write 2 89
+write 2 3
+write 2 49
+write 2 17
+read 2
+read 2
+write 2 72
+read 0
+write 2 33
+write 2 32
+write 2 96
+read 0
+write 2 5
+string
+write 2 94
+write 2 67
+write 2 29
+string
+write 2 82
+write 2 73
+read 0
+write 2 20
+read 0
+write 2 52
+write 0 98
+write 2 65
+read 0
+string
+write 2 46
+write 2 44
+write 2 83
+write 2 9
+write 0 14
+write 2 18
+read 0
+write 2 62
+string
+write 2 81
+write 2 7
+write 2 40
+string
+write 2 91
+write 2 62
+read 0
+write 2 63
+write 2 30
+string
+write 2 36
+write 2 82
+read 2
+write 2 17
+write 2 11
+write 2 38
+write 2 20
+string
+write 2 21
+write 2 62
+read 2
+string
+write 0 40
+write 2 95
+read 0
+write 2 27
+read 2
+write 2 57
+write 2 60
+write 0 14
+write 2 57
+read 2
+write 2 31
+write 2 71
+write 2 67
+read 0
+write 2 25
+read 0
+string
+read 0
+write 2 18
+write 2 13
+string
+read 2
+read 0
+write 2 74
+write 2 7
+write 2 14
+string
+write 2 67
+write 2 20
+write 2 37
+read 0
+write 2 53
+read 2
+write 2 16
+write 2 86
+write 2 65
+write 2 38
+write 2 20
+write 2 43
+read 0
+write 2 88
+write 2 71
+write 2 24
+write 2 48
+write 2 2
+write 2 75
+write 2 66
+write 2 8
+read 0
+write 2 27
+read 2
+string
+write 2 99
+string
+read 0
+read 0
+write 2 21
+write 2 91
+write 2 38
+write 0 85
+string
+write 2 82
+write 2 27
+read 0
+write 2 59
+write 2 5
+write 2 77
+write 2 50
+write 2 49
+write 2 43
+write 2 40
+write 2 78
+write 2 98
+write 2 75
+read 0
+read 0
+read 0
+write 2 64
+read 0
+write 2 53
+write 2 30
+write 2 33
+write 2 64
+read 0
+read 2
+write 2 52
+string
+read 0
+read 0
+write 2 97
+write 2 54
+read 0
+write 2 69
+write 2 69
+read 0
+write 2 78
+write 2 43
+read 0
+write 2 7
+write 2 7
+write 2 53
+write 2 27
+write 2 49
+write 2 14
+write 2 10
+string
+write 2 52
+read 2
+write 0 76
+read 0
+write 2 96
+read 0
+write 2 42
+read 0
+write 2 29
+write 2 68
+read 0
+read 0
+write 2 7
+write 0 26
+write 0 23
+write 0 67
+write 2 85
+read 0
+write 2 23
+read 0
+write 2 68
+write 2 1
+write 2 61
+read 0
+write 2 99
+write 0 66
+write 2 28
+write 2 47
+write 2 1
+write 2 45
+read 0
+read 2
+write 2 31
+read 0
+write 2 48
+write 2 4
+string
+write 2 49
+read 0
+write 2 48
+write 2 16
+write 2 35
+read 0
+read 0
+write 2 20
+write 2 74
+read 0
+write 2 34
+write 0 81
+write 2 86
+read 0
+write 2 19
+string
+write 2 60
+write 2 9
+write 2 93
+read 0
+write 0 55
+read 2
+write 2 91
+read 0
+write 0 65
+write 0 68
+write 2 64
+read 0
+write 0 3
+write 2 59
+read 0
+read 0
+write 2 33
+write 2 12
+read 0
+write 2 46
+read 2
+write 2 54
+read 0
+read 0
+read 0
+read 0
+write 2 7
+read 0
+write 2 42
+write 2 85
+write 2 84
+write 2 26
+write 2 62
+write 2 59
+read 2
+write 2 27
+string
+string
+write 2 36
+write 2 75
+write 2 85
+write 0 22
+read 0
+read 2
+write 2 72
+read 0
+read 2
+write 2 76
+read 0
+write 2 55
+write 2 73
+write 2 53
+string
+read 2
+read 2
+write 2 77
+write 2 87
+write 2 46
+write 2 34
+write 2 84
+write 2 56
+write 2 13
+read 0
+write 2 63
+write 2 78
+write 2 94
+read 0
+read 2
+write 2 20
+read 0
+write 2 99
+read 0
+string
+write 2 84
+write 2 37
+write 2 6
+string
+read 2
+write 2 85
+write 2 87
+read 0
+write 2 75
+write 2 53
+read 0
+write 2 74
+write 2 62
+write 2 67
+write 2 96
+write 2 27
+read 0
+write 0 25
+write 2 45
+write 2 69
+string
+write 2 24
+read 0
+string
+write 2 56
+read 0
+write 0 71
+write 2 45
+read 0
+write 2 16
+write 2 98
+write 2 64
+write 2 18
+write 2 8
+string
+write 2 43
+read 0
+string
+write 2 40
+string
+read 0
+read 0
+write 2 91
+string
+write 2 76
+read 0
+write 2 59
+write 2 11
+read 0
+read 2
+write 0 23
+write 2 34
+read 0
+read 0
+write 2 97
+string
+write 2 77
+write 0 17
+string
+string
+write 2 99
+write 2 52
+write 2 89
+string
+write 2 15
+write 2 64
+write 2 100
+write 2 64
+read 0
+write 2 83
+write 2 79
+write 2 32
+write 2 54
+read 0
+write 2 74
+write 2 20
+write 2 27
+read 0
+write 2 50
+write 2 19
+read 0
+write 2 18
+write 2 19
+write 2 10
+string
+write 2 57
+write 2 93
+write 2 70
+string
+write 2 25
+string
+write 2 88
+write 2 99
+write 2 1
+write 2 87
+write 2 62
+read 0
+read 2
+write 2 53
+write 2 48
+write 2 81
+read 2
+write 2 18
+write 2 10
+write 0 28
+write 2 21
+string
+read 0
+read 0
+string
+write 2 59
+write 2 50
+read 0
+write 2 9
+write 2 63
+write 2 67
+write 0 73
+write 2 90
+write 2 99
+read 0
+read 0
+write 2 59
+write 2 93
+write 2 59
+write 0 2
+write 2 13
+write 2 87
+write 2 49
+write 2 85
+write 2 21
+read 0
+write 2 6
+read 0
+string
+write 2 46
+read 0
+write 2 37
+write 2 5
+write 2 49
+read 0
+write 2 98
+write 2 95
+write 2 74
+write 2 43
+write 2 69
+write 2 69
+read 0
+write 2 29
+read 2
+write 2 44
+read 0
+read 0
+write 2 34
+write 2 37
+write 2 99
+write 2 73
+write 2 84
+string
+write 2 88
+string
+write 2 18
+write 2 95
+write 2 36
+read 0
+write 2 42
+write 2 21
+read 0
+write 0 84
+write 2 96
+write 2 7
+write 2 67
+write 2 18
+read 0
+write 2 58
+write 2 6
+write 2 94
+write 2 73
+write 2 74
+write 2 7
+write 2 87
+write 2 94
+write 2 99
+write 0 86
+write 2 79
+read 0
+write 2 73
+write 2 74
+write 2 66
+write 2 22
+write 2 6
+write 0 6
+write 2 43
+write 2 82
+write 2 32
+write 2 89
+read 0
+write 2 3
+write 2 85
+write 2 56
+write 2 86
+read 0
+write 2 9
+write 2 33
+write 2 37
+write 2 80
+read 0
+write 2 34
+write 2 90
+write 2 12
+write 2 99
+read 0
+write 2 50
+read 0
+write 0 100
+write 2 29
+write 2 42
+write 2 47
+string
+read 0
+write 2 82
+write 2 11
+write 2 18
+string
+write 2 100
+write 2 54
+write 2 40
+write 2 34
+write 2 5
+write 2 86
+write 0 19
+read 0
+write 2 47
+write 2 92
+write 2 11
+write 2 75
+write 2 74
+write 2 57
+read 2
+write 2 28
+write 2 58
+write 2 36
+write 2 32
+write 2 78
+string
+write 2 8
+write 2 25
+write 2 6
+write 2 45
+write 0 2
+read 2
+string
+read 0
+write 2 64
+write 2 63
+write 2 93
+write 2 89
+write 2 2
+read 2
+read 0
+write 2 60
+write 2 6
+write 2 64
+write 2 30
+write 2 47
+write 2 95
+read 0
+write 2 64
+write 2 9
+write 2 9
+read 0
+read 0
+write 0 91
+write 0 54
+read 0
+write 2 35
+string
+read 0
+write 2 66
+write 2 28
+read 0
+read 0
+write 2 43
+write 2 81
+read 0
+write 2 61
+read 0
+write 2 66
+read 0
+write 2 71
+write 0 79
+read 0
+write 2 39
+read 0
+read 0
+write 2 50
+write 2 89
+write 2 40
+read 0
+write 2 34
+write 2 61
+write 2 75
+write 2 11
+write 2 13
+read 0
+write 2 61
+write 2 78
+string
+write 2 80
+write 2 74
+string
+write 2 13
+write 2 25
+write 2 51
+read 0
+write 2 95
+read 2
+read 0
+read 0
+write 2 23
+read 0
+read 0
+write 2 45
+write 2 68
+read 0
+write 0 33
+string
+read 0
+write 2 75
+read 2
+write 2 88
+read 0
+read 0
+write 2 98
+read 0
+write 2 98
+string
+string
+write 2 9
+read 0
+write 2 10
+write 2 70
+read 0
+write 2 60
+read 0
+read 0
+write 2 37
+write 2 21
+write 2 9
+write 2 78
+write 2 21
+read 2
+write 2 17
+write 2 92
+write 2 31
+read 0
+write 2 49

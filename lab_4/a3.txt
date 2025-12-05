@@ -1,0 +1,1000 @@
+string
+write 1 91
+string
+write 1 97
+string
+read 2
+string
+write 2 10
+read 1
+read 2
+write 1 55
+string
+string
+string
+string
+string
+write 1 73
+string
+string
+string
+write 1 49
+string
+string
+read 2
+write 1 1
+read 0
+write 1 92
+string
+string
+string
+string
+read 1
+string
+string
+write 0 37
+string
+read 2
+string
+string
+string
+read 0
+string
+string
+string
+read 1
+read 0
+read 0
+string
+write 1 18
+write 2 71
+string
+write 0 32
+read 2
+string
+write 0 15
+write 0 100
+string
+string
+string
+write 1 32
+string
+string
+read 1
+write 0 67
+read 0
+write 1 39
+read 2
+string
+write 0 80
+write 0 19
+read 0
+read 1
+read 1
+read 0
+read 1
+string
+string
+string
+string
+string
+string
+read 2
+string
+string
+write 0 66
+string
+write 1 65
+write 1 46
+read 1
+string
+string
+string
+write 2 88
+string
+string
+read 2
+write 0 76
+string
+read 2
+string
+read 1
+string
+string
+read 0
+string
+read 0
+string
+string
+read 1
+write 1 14
+string
+write 1 24
+read 2
+string
+string
+string
+read 2
+write 2 82
+read 2
+read 2
+write 0 93
+read 2
+write 2 91
+write 1 85
+read 2
+string
+string
+string
+read 1
+string
+read 0
+write 0 84
+string
+string
+string
+read 1
+string
+string
+string
+read 2
+string
+string
+read 0
+string
+string
+read 0
+read 2
+string
+read 1
+write 0 41
+write 0 36
+read 1
+string
+string
+read 0
+string
+string
+write 1 16
+string
+read 0
+read 1
+read 0
+write 0 73
+write 2 39
+write 1 93
+string
+read 0
+write 2 87
+read 1
+string
+write 1 12
+string
+read 1
+read 2
+write 2 66
+read 1
+string
+string
+string
+string
+read 1
+string
+write 0 92
+read 2
+read 1
+string
+string
+write 1 51
+string
+read 1
+read 1
+read 1
+string
+read 0
+write 0 86
+read 0
+string
+write 1 50
+string
+string
+write 0 4
+string
+string
+string
+read 0
+string
+string
+write 0 35
+read 0
+string
+read 2
+write 0 81
+string
+read 0
+string
+string
+write 1 19
+string
+read 2
+write 0 15
+read 2
+write 1 81
+string
+write 0 58
+string
+read 1
+write 0 15
+string
+string
+read 1
+string
+read 0
+read 0
+write 1 52
+write 1 41
+read 0
+write 0 77
+read 2
+write 0 13
+read 2
+write 1 51
+read 2
+string
+read 0
+string
+write 0 83
+string
+write 2 95
+write 0 50
+read 2
+read 1
+read 1
+write 2 89
+string
+write 2 37
+write 0 12
+write 1 79
+string
+read 0
+read 2
+read 2
+read 2
+read 0
+read 1
+write 0 23
+write 1 50
+string
+string
+string
+string
+string
+string
+write 0 44
+read 2
+string
+read 0
+write 0 83
+write 2 2
+read 0
+write 0 91
+write 1 81
+string
+read 2
+string
+write 1 65
+read 1
+read 1
+read 0
+read 1
+string
+read 2
+read 2
+string
+string
+write 1 82
+string
+write 2 19
+read 0
+read 0
+write 2 63
+string
+string
+string
+write 0 38
+string
+read 1
+string
+write 2 49
+string
+read 0
+read 1
+read 0
+string
+write 2 11
+read 1
+read 0
+read 1
+string
+string
+read 0
+string
+string
+string
+read 1
+read 0
+write 1 82
+write 1 54
+string
+read 0
+string
+string
+read 2
+string
+write 0 56
+read 0
+string
+string
+string
+read 1
+read 2
+read 1
+write 2 2
+read 1
+string
+read 2
+write 1 85
+string
+write 1 45
+read 2
+write 1 18
+read 2
+read 2
+string
+read 0
+read 1
+write 2 9
+string
+string
+read 0
+string
+write 1 59
+string
+string
+string
+read 0
+read 0
+string
+write 1 71
+read 2
+write 1 41
+write 1 60
+read 0
+read 2
+write 0 61
+string
+string
+write 1 23
+string
+write 1 33
+read 2
+string
+write 2 43
+read 0
+string
+read 1
+write 1 9
+string
+read 2
+write 1 81
+string
+write 0 27
+string
+read 2
+string
+write 1 49
+write 2 58
+read 2
+read 2
+string
+read 1
+read 2
+string
+string
+read 1
+read 2
+read 1
+write 1 24
+read 0
+read 1
+read 0
+string
+write 1 68
+read 2
+read 0
+string
+read 0
+write 1 99
+string
+write 0 89
+string
+string
+string
+write 0 80
+string
+write 0 77
+read 2
+write 2 34
+write 1 68
+read 2
+write 1 85
+string
+read 2
+write 1 51
+string
+write 0 50
+write 0 78
+read 2
+string
+write 0 91
+read 0
+string
+read 0
+write 2 72
+string
+write 0 20
+read 1
+write 0 43
+string
+string
+read 1
+read 2
+read 1
+read 0
+string
+read 2
+string
+string
+string
+read 1
+string
+string
+string
+read 1
+string
+read 1
+write 1 25
+read 2
+write 2 89
+read 1
+write 0 60
+read 1
+write 2 17
+string
+string
+read 2
+string
+string
+read 1
+write 2 48
+write 2 6
+string
+string
+read 1
+write 0 88
+write 0 94
+read 1
+string
+write 0 29
+string
+write 0 82
+read 2
+string
+string
+write 1 20
+string
+read 0
+read 1
+string
+string
+write 1 65
+string
+string
+read 1
+read 1
+read 0
+read 0
+read 2
+string
+read 1
+write 0 91
+write 1 8
+write 1 72
+read 0
+string
+string
+write 1 81
+read 0
+write 0 28
+read 0
+string
+read 1
+string
+read 0
+string
+string
+write 1 63
+read 1
+read 2
+string
+read 0
+read 0
+write 0 82
+string
+read 2
+write 1 18
+write 1 50
+read 0
+write 1 20
+string
+read 1
+read 2
+write 2 62
+string
+string
+string
+read 0
+write 0 95
+string
+write 1 27
+string
+read 0
+string
+read 1
+string
+string
+write 1 42
+string
+string
+string
+write 2 32
+string
+write 1 67
+string
+read 1
+read 2
+string
+string
+string
+write 1 18
+write 2 13
+string
+string
+string
+write 1 74
+write 0 7
+string
+write 1 89
+write 0 67
+write 0 20
+read 1
+read 0
+string
+read 1
+read 1
+string
+read 1
+write 1 34
+string
+read 2
+string
+read 2
+read 0
+write 1 20
+string
+read 0
+string
+read 1
+string
+write 1 71
+string
+read 2
+read 2
+read 1
+read 0
+write 0 59
+string
+read 2
+string
+read 2
+write 0 62
+read 1
+read 2
+string
+string
+read 1
+string
+string
+string
+string
+write 2 21
+string
+string
+write 1 38
+string
+string
+string
+write 2 82
+write 2 27
+string
+string
+string
+write 0 5
+read 0
+string
+write 2 50
+write 1 49
+write 1 43
+read 0
+read 0
+write 0 78
+string
+string
+read 1
+string
+string
+string
+string
+write 0 64
+string
+write 0 53
+write 0 30
+write 2 33
+read 1
+string
+string
+string
+read 0
+read 1
+string
+string
+string
+read 2
+string
+write 2 54
+string
+write 2 69
+write 1 69
+string
+write 0 78
+read 1
+read 0
+string
+write 0 7
+read 2
+write 0 16
+read 1
+read 2
+read 2
+read 0
+read 1
+read 1
+write 1 46
+write 0 88
+write 1 52
+string
+string
+string
+string
+read 2
+string
+string
+read 2
+read 0
+string
+read 1
+read 2
+write 0 68
+string
+string
+read 1
+write 0 91
+read 2
+string
+read 2
+string
+string
+write 2 85
+string
+write 2 23
+string
+read 0
+string
+read 1
+write 0 24
+string
+string
+read 0
+string
+string
+string
+write 0 28
+read 1
+read 1
+read 0
+write 0 47
+read 0
+string
+string
+write 2 31
+string
+read 2
+read 1
+read 2
+write 0 81
+write 1 49
+string
+read 0
+read 1
+read 2
+write 1 55
+write 2 73
+string
+read 2
+write 1 55
+string
+string
+read 2
+write 2 92
+string
+read 2
+string
+string
+write 0 19
+string
+read 2
+string
+write 0 9
+string
+string
+string
+string
+read 1
+string
+read 0
+string
+string
+string
+string
+string
+string
+write 0 64
+string
+string
+write 0 21
+string
+string
+string
+read 2
+write 2 12
+write 1 61
+write 1 46
+string
+read 1
+read 1
+string
+string
+string
+string
+read 0
+write 0 67
+read 2
+read 0
+read 0
+string
+write 0 84
+write 0 26
+write 2 62
+write 2 59
+string
+read 1
+read 2
+string
+string
+read 2
+read 0
+write 2 75
+write 1 85
+string
+read 2
+string
+string
+read 1
+string
+string
+string
+read 1
+string
+string
+write 1 55
+read 0
+string
+write 1 53
+string
+string
+string
+read 2
+string
+write 1 87
+write 1 46
+write 0 34
+read 0
+string
+read 0
+string
+read 0
+write 1 77
+read 2
+string
+read 1
+string
+read 0
+string
+string
+string
+read 0
+write 1 78
+write 1 99
+string
+string
+write 0 84
+read 1
+read 0
+read 1
+write 0 87
+string
+read 1
+string
+read 0
+string
+string
+write 0 75
+write 0 53
+string
+write 2 74
+write 1 62
+string
+string
+read 2
+string
+write 0 27
+string
+string
+read 2
+write 1 45
+write 2 69
+string
+read 0
+read 2
+string
+string
+read 0
+string
+string
+string
+string
+read 1
+read 0
+string
+write 0 16
+write 2 98
+read 0
+string
+read 2
+write 1 20
+write 0 83
+read 1
+read 0
+string
+string
+read 1
+read 0
+string
+string
+string
+read 0
+string
+string
+write 0 76
+string
+read 0
+string
+read 2
+write 1 80
+string
+string
+read 2
+write 2 34
+string
+string
+read 0
+string
+string
+read 2
+string
+string
+write 1 88
+string
+read 0
+string
+read 1
+read 1
+string
+string
+string
+string
+write 1 16
+string
+write 1 100
+read 0
+string
+string
+read 0
+string
+write 0 79
+write 0 32
+read 1
+read 1
+string
+write 0 74
+write 1 20
+write 1 27
+string
+read 1
+read 1
+read 1
+write 1 68
+read 1
+write 1 15
+write 1 6
+write 0 86
+write 2 57
+write 1 93
+write 0 70
+string
+string
+read 2
+string
+write 1 88
+write 1 99
+write 2 1
+write 0 87
+read 0
+string
+string
+string
+read 0
+read 1
+write 0 48
+read 2
+string
+string
+read 2
+write 1 50
+write 0 91
+read 2
+string
+read 2
+string
+string
+string
+string
+string
+string
+read 2
+read 1
+string
+string
+write 0 57
+string
+write 1 67
